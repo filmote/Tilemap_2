@@ -311,10 +311,28 @@
 		"/TilemapCPP.bin.2.h": {
 			"sdcard": false
 		},
-		"/Tilemap_2.elf": {
+		"/Tilemap_1.elf": {
+			"sdcard": false
+		},
+		"/Tilemap_1.bin": {
+			"sdcard": false
+		},
+		"/Grass.png": {
+			"sdcard": false
+		},
+		"/Tree.png": {
+			"sdcard": false
+		},
+		"/Water.png": {
+			"sdcard": false
+		},
+		"/Player.png": {
 			"sdcard": false
 		},
 		"/Tilemap_2.bin": {
+			"sdcard": false
+		},
+		"/Tilemap_2.elf": {
 			"sdcard": false
 		}
 	}
