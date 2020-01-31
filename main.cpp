@@ -198,9 +198,9 @@ int main(){
 
         // Check the map tile under the player.
         
-        int16_t girlCenterInMapX = (screenCentreX + 6) - x - xOffset;
-        int16_t girlCerterInMapY = (screenCentreY + 7) - y - yOffset;
-        uint8_t tileId = tilemap.GetTileId(girlCenterInMapX, girlCerterInMapY, 16);
+        int16_t playerCenterInMapX = (screenCentreX + 6) - x - xOffset;
+        int16_t playerCerterInMapY = (screenCentreY + 7) - y - yOffset;
+        uint8_t tileId = tilemap.GetTileId(playerCenterInMapX, playerCenterInMapY, 16);
 
 
         // If the tile is not green, do not move.
