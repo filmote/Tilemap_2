@@ -52,8 +52,9 @@ Tilemap tilemap;
 int main(){
 
     PC::begin();
+    PD::loadRGBPalette(palettePico);   
     PD::persistence = true;
-    PD::invisiblecolor = 0;
+    PD::invisiblecolor = 12;
 
 
     // Initialise the map ..
@@ -199,7 +200,7 @@ int main(){
         // Check the map tile under the player.
         
         int16_t playerCenterInMapX = (screenCentreX + 6) - x - xOffset;
-        int16_t playerCerterInMapY = (screenCentreY + 7) - y - yOffset;
+        int16_t playerCenterInMapY = (screenCentreY + 7) - y - yOffset;
         uint8_t tileId = tilemap.GetTileId(playerCenterInMapX, playerCenterInMapY, 16);
 
 
