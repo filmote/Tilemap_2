@@ -311,28 +311,16 @@
 		"/TilemapCPP.bin.2.h": {
 			"sdcard": false
 		},
-		"/Tilemap_1.elf": {
-			"sdcard": false
-		},
-		"/Tilemap_1.bin": {
-			"sdcard": false
-		},
-		"/Grass.png": {
-			"sdcard": false
-		},
-		"/Tree.png": {
-			"sdcard": false
-		},
-		"/Water.png": {
-			"sdcard": false
-		},
-		"/Player.png": {
+		"/Tilemap_2.elf": {
 			"sdcard": false
 		},
 		"/Tilemap_2.bin": {
 			"sdcard": false
 		},
-		"/Tilemap_2.elf": {
+		"/Tilemap_3.elf": {
+			"sdcard": false
+		},
+		"/Tilemap_3.bin": {
 			"sdcard": false
 		},
 		"\\Data.h": {
@@ -341,16 +329,16 @@
 		"\\main.cpp": {
 			"sdcard": false
 		},
-		"\\My_settings.h": {
-			"sdcard": false
-		},
 		"\\project.json": {
 			"sdcard": false
 		},
-		"\\Tilemap_2.bin": {
+		"\\My_settings.h": {
 			"sdcard": false
 		},
-		"\\Tilemap_2.elf": {
+		"\\Tilemap_3.bin": {
+			"sdcard": false
+		},
+		"\\Tilemap_3.elf": {
 			"sdcard": false
 		}
 	}
